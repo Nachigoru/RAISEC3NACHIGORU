@@ -29,9 +29,7 @@ switch(check){
         printf("Ans: Num1/Num2 = %d\n", Num1/Num2);
         break;
     case 5:
-        result = fmod((Num1,Num2));
-        printf("Ans: Num1 %% Num2 = %.2f\n");
-        break;
+        printf("Ans: Num1 %% Num2 = %d\n", Num1%Num2);
     default: 
 }
 
