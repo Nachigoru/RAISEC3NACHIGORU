@@ -1,3 +1,13 @@
+#include<stdio.h>
+
+int main()
 {
-    "C_Cpp.errorSquiggles": "disabled"
+int num1, num2;
+printf("Enter number1 : ");
+
+
+
+
+return 0;
 }
+
