@@ -5,32 +5,30 @@
     int z = 0;
 
 
+
+
     printf("Initial Values:\n");
     printf("x = %d\n", x);
     printf("y = %d\n", y);
     printf("z = %d\n\n", z);
 
 
-    switch (x % 2) {
-    case 0:
+    if (x % 2 == 0) {
     x = 2;
     y = 3;
-    break;
-
-    case 1:
+    } else if (x % 2 == 1) {
     x = 4;
-    break;
-   
-    default: 
+    } else {
     y = 3;
     x = z;
-    break;
-}   
+}
 
-    printf("Final values after the swtich statement:\n");
+
+    printf("Final values after the switch statement:\n");
     printf("x = %d\n", x);
     printf("y = %d\n", y);
-    printf("z = %d\n", z);\
+    printf("z = %d\n", z);
 
-return 0;
+
+return 0;    
 }
