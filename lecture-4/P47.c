@@ -5,7 +5,7 @@ int main() {
     int count = 0;
     char letters;
 
-    printf("Enter 10 lowercase letters:\n");
+    printf("Enter 10 lowercase letters:");
 
     for (count= 0; count < 10; count++) {
         scanf(" %c", &letters);
